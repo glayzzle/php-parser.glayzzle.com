@@ -1,0 +1,23 @@
+{
+  "name": "php-parser.glayzzle.com",
+  "version": "1.0.0",
+  "description": "https://php-parser.glayzzle.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glayzzle/php-parser.glayzzle.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glayzzle/php-parser.glayzzle.com/issues"
+  },
+  "homepage": "https://github.com/glayzzle/php-parser.glayzzle.com#readme",
+  "devDependencies": {
+    "php-parser": "^3.0.0-prerelease.8",
+    "docnator": "^0.3.3"
+  }
+}
