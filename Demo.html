@@ -2,6 +2,47 @@
 <link rel="stylesheet" href="https://unpkg.com/vue-material@beta/dist/theme/default.css">
 <link rel="stylesheet" href="https://unpkg.com/vue-json-tree@0.3.3/dist/json-tree.css">
 
+<style type="text/css">
+[v-cloak] {
+  display: none;
+}
+
+:root {
+  --md-theme-default-accent: #bbdefb;
+}
+
+body, #app {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#app .md-app-content {
+  height: auto;
+  overflow: hidden;
+}
+
+textarea {
+  min-height: 350px !important;
+  max-height: 100% !important;
+}
+
+.input-container.md-invalid .errors-box {
+  border: thin solid;
+  border-color: #ef5350 !important;
+}
+
+.input-container.md-invalid .md-field:before {
+  border-color: #ef5350 !important;
+}
+.md-toolbar.md-theme-default.md-primary .md-icon.md-theme-default {
+  color: #333;
+}
+</style>
+
 <div id="app">
   <md-app md-waterfall md-mode="overlap" v-cloak>
     <md-app-toolbar class="md-primary md-large md-dense">
