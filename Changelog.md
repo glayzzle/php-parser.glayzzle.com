@@ -1,4 +1,4 @@
-# Releases
+# Changelog
 
 ## 3.0.0-prerelease.8 : (2019-01-07)
  - #235 : invalid ast for `self` and `parent`
