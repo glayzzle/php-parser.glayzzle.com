@@ -94,7 +94,7 @@ You can also [pass options](https://github.com/glayzzle/php-parser/wiki/Options)
 Documentation
 -------------
 
-- [AST nodes definition](https://github.com/glayzzle/php-parser/blob/master/docs/AST.md)
+- [AST nodes definition](https://github.com/glayzzle/php-parser/blob/master/docs/AST.html)
 - [List of options](https://github.com/glayzzle/php-parser/wiki/Options)
 - [Main API](https://github.com/glayzzle/php-parser/tree/master/docs)
 - [Lexer API](https://github.com/glayzzle/php-parser/blob/master/docs/lexer.md)
